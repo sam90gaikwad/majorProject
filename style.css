@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    background-color: #113448;
+    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; 
+    
+}
+.left_nav{
+   
+   margin-left: 30px;
+}
+
+.right_nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5em;
+    margin-right: 30px;
+    margin-bottom: 10px;
+ }
+ .right_nav p{
+    margin-left: 30px;
+    text-transform: capitalize;
+    color: white;
+ }
+body{
+    color: #787976;
+    font: 400 1rem/1.5625rem "Open Sans",sans-serif;
+}
+.right_nav p:hover{
+    color: #20c997;
+    transition: all 0.1s ease-in;
+}
+.right_nav a{
+    margin-left: 20px;
+}
+body{
+    /* background-image: url("https://s.yimg.com/fz/api/res/1.2/Rsfqtv6bNijvXH_FR6desw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/8ebdce9e-df29-35f7-9e45-865ce36d3479/t_500x300"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+#head{
+    /* background-image: url("https://s.yimg.com/fz/api/res/1.2/Rsfqtv6bNijvXH_FR6desw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/8ebdce9e-df29-35f7-9e45-865ce36d3479/t_500x300");  */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+#head .head_item{
+    margin-top: 20px;
+    color: black;
+}
+#head .head_item p{
+    text-align: center;
+}
+button{
+    padding: 10px 30px;
+    border: 2px solid #20c997 ;
+    border-radius: 2px;
+    background-color: #20c997;
+}
+button:hover{
+    background-color: #787976;
+    color: #20c997;
+    transition: 0.5s ease-in-out;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+#first{
+    color: #20c997;
+}
+.girl{
+    margin-left: 100px;
+    width: 635;
+    height: 410;
+}
+.girl img:hover{
+    transition: 0.8s ease-in;
+    cursor: pointer;
+}
+.intro{
+    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_item{
+    margin: 19px;
+    color: black;
+}
+.card{
+    position: relative;
+    
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    max-width: 25%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,0.125); */
+    border-radius: 0.25rem;
+}
+div.card_area{
+
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.card_title{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.card_body{
+    padding: 30px;
+}
+.card_body p{
+    margin-top: 30px;
+}
+.fa_stack{
+    margin-left: 100px;
+}
+.service_card{
+    width: 292px;
+    height: 620px;
+    margin: 15px;
+    padding: 20px;
+}
+.service_list{
+    margin: 10px;
+    margin-left: 30px;
+   
+}
+.service_card img{
+    margin: 10px;
+}
+.service_price{
+   margin: 10px;
+   margin-left: 60px;
+}
+.service_text{
+    text-align: center;
+}
+.serive_card_items{
+    display: flex;
+    justify-content: center;
+    
+}
+.call{
+    width: 100%;
+    height: 80%;
+    margin-top: 50px;
+}
+.call_div{
+    top: 40;
+   display: flex;
+   justify-content: center;
+}
+.call_text{
+    margin-top: 70px;
+    margin-right: 60px;
+    width: 40%;
+}
+.call_section{
+    
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+}
+.call_form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    width: 45%;
+    
+}
+.contact_check label{
+    margin-bottom: 30px;
+}
+.call_form #check{
+    width: 10px;
+    height: 10px;
+   
+}
+.call_text span,h1,p,ul{
+     margin-top: 20px;
+}
+.call_check{
+    display: flex;
+}
+.call_form input{
+   margin: 10px;
+   height: 40px;
+   background-color: #4881a2;
+   color: white;
+   /* border: 1px solid red; */
+   border-radius: 4px;
+}
+.call_form input:hover{
+    border: 2px solid white;
+    transition: 0.5s ease-in-out;
+}
+::placeholder{
+    color: white;
+    margin-left: 10px;
+}
+.call_text ul{
+    margin-left: 30px;
+}
+#pro_text{
+    text-align: center;
+}
+.proText{
+  text-align: center;
+}
+.project_areas button{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.project_areas{
+    display: flex;
+    justify-content: center;
+}
+.projects{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+}
+.project_title{
+    text-align: center;
+}
+.project_photos{
+    height: 300px;
+    width: 70%;
+    margin-left: 250px;
+    /* margin-bottom: 40px; */
+}
+.project_photos img:hover{
+    transition: 0.4s ease-in;
+    transform: scale(1.06)
+    
+}
+.consultant{
+    margin-top: 300px;
+}
+.consultant_text{
+    text-align: center;
+    
+}
+.consultant_text h1{
+    color: black;
+}
+.consutant_photo{
+    display: flex;
+    justify-content: center;
+
+}
+.consutant_photo div{
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
